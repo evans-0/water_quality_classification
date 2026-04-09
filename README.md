@@ -7,7 +7,7 @@ A machine learning pipeline that predicts whether water is safe to drink using p
 ## 📁 Project Structure
 
 ```
-├── P1.ipynb           # Main notebook (EDA → preprocessing → training → evaluation → SHAP)
+├── water_quality.ipynb           # Main notebook (EDA → preprocessing → training → evaluation → SHAP)
 ├── water_potability.csv
 ├── rf_model.pkl       # Saved Random Forest model
 └── scaler.pkl         # Saved RobustScaler
