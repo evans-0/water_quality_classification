@@ -110,6 +110,9 @@ X_scaled = scaler.transform(X_new)
 predictions = model.predict(X_scaled)
 ```
 
+### Deployment
+The app can be accessed by ![clicking here](https://waterqualityclassification-project1.streamlit.app/)
+
 ---
 
 ## ⚠️ Notes
