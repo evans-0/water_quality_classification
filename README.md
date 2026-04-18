@@ -87,12 +87,6 @@ SHAP `TreeExplainer` is used on the best Random Forest model to explain predicti
 
 ## 🚀 Usage
 
-### Requirements
-
-```bash
-pip install -r
-```
-
 ### Run the notebook
 
 **Notebook**
