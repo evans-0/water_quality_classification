@@ -7,10 +7,12 @@ A machine learning pipeline that predicts whether water is safe to drink using p
 ## 📁 Project Structure
 
 ```
-├── water_quality.ipynb           # Main notebook (EDA → preprocessing → training → evaluation → SHAP)
-├── water_potability.csv
-├── rf_model.pkl       # Saved Random Forest model
-└── scaler.pkl         # Saved RobustScaler
+├── water_quality.ipynb      # Main notebook (EDA → preprocessing → training → evaluation → SHAP)
+├── water_potability.csv     # Dataset (Kaggle — Water Potability, 3,276 samples)
+├── app.py                   # Streamlit deployment app (AquaSafe)
+├── requirements.txt         # Python dependencies
+├── rf_model.pkl             # Saved Random Forest model
+└── scaler.pkl               # Saved RobustScaler
 ```
 
 ---
@@ -88,26 +90,20 @@ SHAP `TreeExplainer` is used on the best Random Forest model to explain predicti
 ### Requirements
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost shap
+pip install -r
 ```
 
 ### Run the notebook
 
+**Notebook**
 ```bash
 jupyter notebook water_quality.ipynb
 ```
 
-### Load the saved model
-
-```python
-import pickle
-
-model  = pickle.load(open("rf_model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
-
-# Predict on new data (already imputed)
-X_scaled = scaler.transform(X_new)
-predictions = model.predict(X_scaled)
+**Streamlit App**
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
 ### Deployment
