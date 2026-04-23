@@ -9,12 +9,13 @@ A machine learning pipeline that predicts whether water is safe to drink using p
 ## 📁 Project Structure
 
 ```
-├── water_quality.ipynb      # Main notebook (EDA → preprocessing → training → evaluation → SHAP)
-├── water_potability.csv     # Dataset (Kaggle — Water Potability, 3,276 samples)
-├── app.py                   # Streamlit deployment app (AquaSafe)
-├── requirements.txt         # Python dependencies
-├── rf_model.pkl             # Saved Random Forest model
-└── scaler.pkl               # Saved RobustScaler
+|-- water_quality.ipynb      # Main notebook (EDA → preprocessing → training → evaluation → SHAP)
+|-- water_potability.csv     # Dataset (Kaggle — Water Potability, 3,276 samples)
+|-- app.py                   # Streamlit deployment app (AquaSafe)
+|-- presentation.pdf         # Presentation pdf file
+|-- requirements.txt         # Python dependencies
+|-- rf_model.pkl             # Saved Random Forest model
+|-- scaler.pkl               # Saved RobustScaler
 ```
 
 ---
