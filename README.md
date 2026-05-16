@@ -1,3 +1,14 @@
+## 👥 Team
+
+| Name | Reg No | Programme | Contribution |
+|------|--------|-----------|--------------|
+| Aleena V J | 253137 | SODS DACS | Stage 1: Load & Explore, Preprocessing & SMOTE |
+| Savin Jees V | 253211 | SODS Bio AI | Stage 2: Train Models, Evaluate & Compare |
+| Evans Devakrubakar G E | 253111 | SODS DACS | Stage 3: SHAP Interpretability, Save & Deploy |
+
+**Course:** Predictive Analytics
+**Project:** Water Quality Classification for Safe Drinking Prediction
+
 # 💧 Water Potability Prediction
 
 A machine learning pipeline that predicts whether water is safe to drink using physicochemical features. Four classifiers are trained, compared, and explained with SHAP. Deployed as an interactive web app via Streamlit.
