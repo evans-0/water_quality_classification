@@ -57,6 +57,8 @@ A machine learning pipeline that predicts whether water is safe to drink using p
 
 ## 🔧 Pipeline
 
+![Pipeline Diagram](water_quality_pipeline_diagram.svg)
+
 ### 1. EDA
 - Distribution histograms for all 9 features
 - Correlation heatmap
