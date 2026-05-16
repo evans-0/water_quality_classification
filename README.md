@@ -91,7 +91,6 @@ GridSearchCV with 5-fold cross-validation, optimising F1 score.
 
 **Best model: Random Forest** (highest ROC-AUC — selected for deployment and SHAP analysis).
 
----
 
 ## 🔍 SHAP Interpretability
 
@@ -127,6 +126,13 @@ streamlit run app.py
 👉 [waterqualityclassification-project1.streamlit.app](https://waterqualityclassification-project1.streamlit.app/)
 
 ---
+## 📸 App Screenshots
+
+**Main Interface — Input Parameters**
+![AquaSafe Main](aqua_safe_2.png)
+
+**Prediction Result — Not Potable**
+![AquaSafe Result](aqua_safe_1.png)
 
 ## ⚠️ Notes & Limitations
 
